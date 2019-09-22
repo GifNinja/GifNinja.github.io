@@ -1,0 +1,111 @@
+body {
+    background-color: bisque;
+}
+
+input {
+    background-color: darkorange;
+    width: 30em; height: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    border: 3px solid;
+    border-color: beige;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+#incorrect {
+    color: red;
+    text-align: center; 
+    font-family: serif;
+    font-size: 120px;
+}
+
+#correct {
+    color: green;
+    text-align: center;
+    font-family: seriff;
+    font-size: 120px;
+}
+
+#happy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#correctBody {
+    background-color: red;
+    animation-name: happy;
+    animation-duration: 2.6s;
+}
+
+@keyframes happy {
+    14% {
+        background-color: red;
+    }
+    28%{
+        background-color: orange;
+    }
+    42%{
+        background-color: yellow;
+    }
+    56%{
+        background-color: green;
+    }
+    70% {
+        background-color: blue;
+    }
+    85%{
+        background-color: violet;
+    }
+    100%{
+        background-color: indigo;
+    }
+}
+
+.devil:hover{
+    font-size:64px;
+    color:red;
+    animation-name:devil;
+    animation-duration:0.5s;
+    animation-iteration-count:1;
+}
+
+@keyframes devil {
+    0% { transform: rotate(0deg); }
+    1% { transform: rotate(3deg); }
+    2% { transform: rotate(-3deg); }
+    100% {transform:rotate(0deg);}
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+ol li {
+    padding-bottom: 2%;
+}
