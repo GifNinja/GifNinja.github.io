@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Music Quiz</title>
+    <meta name="description" content="Music Quiz">
+    <meta name="author" content="SoySoy4444">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="puzzle.html">Puzzle</a></li>
+            <li> <a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    
+    <h1> Music Quiz </h1>
+    <p> 
+    You will hear snippets of some famous and not-so famous musical pieces. Try to get as many right as you can!
+    </p>
+    
+    <div class="row">
+        <div class="column"> 
+            <h2> Easy </h2>
+            <ol>
+                <li> 
+                    <audio controls>
+                    <source src="one.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="two.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="three.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </li>
+            </ol>
+                        
+            <ol>
+                <form　action="easy.php" method="post">
+                    <li>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" class = "one" value="Beethoven Symphony No 3"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" class = "one" value="Beethoven Symphony No 5"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" class = "one" value="Beethoven Symphony No 7"> <br>
+                        <input type="button" onclick="window.location.href = 'correct.html'" class = "one" value="Beethoven Symphony No 9"> <br>
+                    <li>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Rondo Alla Turca"> <br>
+                        <input type="button" onclick="window.location.href = 'correct.html'" value="Eine Kleine Nachtmusik"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Radetzky March"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Can Can"> <br>
+                    </li>
+                    <li>
+                        <input type="button" onclick="window.location.href = 'correct.html'" value="Erlkonig"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Magic Flute"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Death and the Maiden"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Le Nozze de Figaro"> <br>
+                    </li>
+                </form>
+            </ol>
+        </div>
+
+        <div class="column"> 
+            <h2> Medium </h2>
+            <ol>
+                <li> 
+                    <audio controls>
+                    <source src="four.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="five.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="six.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element. 
+                    </audio>
+                </li>
+            </ol>
+                        
+            <ol>
+                <form>
+                    <li>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Shostakovich Violin Concerto No. 1 in A minor"> <br>
+                        <input type="button" onclick="window.location.href = 'correct.html'" value="Mendelssohn Violin Concerto No. 1 in A minor"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Mozart Violin Concerto No. 1 in Bb Major"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Haydn Violin Concerto No. 1 in C Major"> <br>
+                    </li>
+                    <li>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="La Campanella"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="La Traviata"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Lakmé"> <br>
+                        <input type="button" onclick="window.location.href = 'correct.html'" value="Toccata and Fugue in D minor"> <br>
+                    </li>
+                    <li>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Vivaldi Autumn"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Vivaldi Winter"> <br>
+                        <input type="button" onclick="window.location.href = 'wrong.html'" value="Vivaldi Spring"> <br>
+                        <input type="button" onclick="window.location.href = 'correct.html'" value="Vivaldi Summer"> <br>
+                    </li>
+                </form>
+            </ol>
+            </div>
+    </div>
+    <hr>
+    <div class="row">
+        <h2> Devil </h2>
+        <div class="column">
+            <p> Which of these is Mahler Symphony No. 2? "Die Auferstehung"?</p>
+            <ol>
+                <li class="devil"> <a href="correct.html"> Are you sure?</a></li>
+                <li class="devil"> <a href="wrong.html"> Are you sure? </a></li>
+                <li class="devil"> <a href="wrong.html"> Are you sure? </a></li>
+                <li class="devil"> <a href="wrong.html"> Are you sure? </a></li>
+            </ol>
+        </div>
+        
+        <div class="column">
+            <ul> 
+                <li>
+                    <audio controls>
+                    <source src="seven.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="eight.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="nine.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                    <source src="ten.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
